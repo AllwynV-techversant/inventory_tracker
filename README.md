@@ -1,4 +1,4 @@
-# 🗃️ Inventory Tracker – Setup Guide
+# Inventory Tracker – Setup Guide
 
 Follow these steps to get the app running locally.
 
@@ -13,15 +13,7 @@ cd inventory_tracker
 
 ---
 
-## 2. Create the `.env` file
-
-```bash
-echo "MONGO_URI=mongodb://mongo:27017/inventory_db" > .env
-```
-
----
-
-## 3. Build and run the app using Docker Compose
+## 2. Build and run the app using Docker Compose
 
 ```bash
 docker-compose up --build
@@ -33,7 +25,7 @@ This will:
 
 ---
 
-## 4. To stop the app
+## 3. To stop the app
 
 ```bash
 docker-compose down
@@ -41,7 +33,7 @@ docker-compose down
 
 ---
 
-## 5. API Docs
+## 4. API Docs
 
 - Swagger: http://localhost:8000/docs  
 
